@@ -30,7 +30,6 @@ jobs:
           GITHUB_CONTEXT: ${{ toJson(github) }}
         run: echo "$GITHUB_CONTEXT"
   
-  
   pull_requests_only:
   
     runs-on: ubuntu-latest

@@ -3,12 +3,12 @@ name: Hello Actions
 on:
   push:
     branches:
-      -master
+      -main
   pull_request:
     types: [closed]
   
 env:
-  name: Mona
+  name: Monamoo
 jobs:
   build:
   
